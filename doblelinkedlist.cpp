@@ -49,10 +49,12 @@ public:
             if (START != NULL);
             START->prev = newNode;
 
-            
+            // Step 6: newNode.prev = NULL
+            newNode->prev = NULL;
 
-
-
+            // Step 7: START = newNode
+            START = newNode;
+            return;
         }
     }
 };
