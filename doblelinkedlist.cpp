@@ -40,7 +40,19 @@ public:
             if (START != NULL && nim == START->noMhs)
             {
                 cout << "\nDuplicate number of allowed" << endl;
+                return;
             }
+            // Step 4: newNode.next = START
+            newNode->next=  START;
+
+            // Step 5: START.prev = newNode (if START exist)
+            if (START != NULL);
+            START->prev = newNode;
+
+            
+
+
+
         }
     }
 };
